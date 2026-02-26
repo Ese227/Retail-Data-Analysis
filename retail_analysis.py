@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("sales.csv")
+df = pd.read_csv("train.csv")
 
 # Clean
 df.dropna(inplace=True)
